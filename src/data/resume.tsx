@@ -77,7 +77,7 @@ export const DATA = {
       title: "Flutter Developer",
       logoUrl: "/nt.png",
       start: "May 2024",
-      // end: "Oct 2022",
+      end: "Present",
       description:
         "Crafted beautiful UIs along with Solid Architecture and Clean code, amazing animations along with concrreate backends and cloud. CI/CD and Automations along with Open AI and Gemini APIs",
     },
