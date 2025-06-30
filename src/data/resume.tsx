@@ -70,6 +70,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Prudent Corporate Advisory Service",
+      href: "https://www.prudentcorporate.com",
+      badges: [],
+      location: "Ahmedabad, Gujarat, IN",
+      title: "Flutter Developer",
+      logoUrl: "/pru.png",
+      start: "March 2025",
+      end: "Present",
+      description:
+        "As a Flutter Developer at Prudent Corporate Advisory Services, I am responsible for designing, developing, and maintaining robust cross-platform mobile applications tailored to the financial services sector.",
+    },
+    {
       company: "Nautilus Techlabs",
       href: "https://nautilustechlabs.com",
       badges: [],
@@ -77,7 +89,7 @@ export const DATA = {
       title: "Flutter Developer",
       logoUrl: "/nt.png",
       start: "May 2024",
-      end: "Present",
+      end: "February 2025",
       description:
         "Crafted beautiful UIs along with Solid Architecture and Clean code, amazing animations along with concrreate backends and cloud. CI/CD and Automations along with Open AI and Gemini APIs",
     },
@@ -92,17 +104,18 @@ export const DATA = {
       end: "January 2024",
       description:
         "Learned about Flutter UIs and State-Management. Along with api integration and Databases",
-    }
+    },
   ],
   education: [
     {
       school: "Parul Univeristy",
       href: "https://paruluniversity.com",
-      degree: "Bachelor's of Technology in Computer Science with Specialization in Internet Of Things",
+      degree:
+        "Bachelor's of Technology in Computer Science with Specialization in Internet Of Things",
       logoUrl: "/pu.jpg",
       start: "2021",
       end: "2025",
-    }
+    },
   ],
   projects: [
     {
@@ -131,16 +144,14 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Cool Havana Nights",
       href: "https://apps.apple.com/in/app/cool-havana-nights/id6596772381",
       dates: "",
       active: true,
-      description:
-        "A traveler's guide for Havana, Cuba",
+      description: "A traveler's guide for Havana, Cuba",
       technologies: [
         "Flutter",
         "Dart",
@@ -154,7 +165,7 @@ export const DATA = {
           type: "App",
           href: "https://apps.apple.com/in/app/cool-havana-nights/id6596772381",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "",
       video: "",
@@ -173,18 +184,18 @@ export const DATA = {
         "Firebase Suite",
         "Phone Auth",
         "Firebase Analytics and Crashlytics",
-        "Gemini API"
+        "Gemini API",
       ],
       links: [
         {
           type: "App",
           href: "https://play.google.com/store/apps/details?id=com.nt.fitmotive&pcampaignid=web_share",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "",
       video: "",
-    }
+    },
   ],
   hackathons: [
     /*
@@ -574,4 +585,3 @@ export const DATA = {
     */
   ],
 } as const;
-
