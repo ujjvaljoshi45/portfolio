@@ -12,6 +12,10 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
+    <>
+    <Head>
+      <meta name="google-site-verification" content="-Aioto8fyXjo1TgS1CHRphFWle6UWJgseeM56yVXqQA" />
+    </Head>
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
@@ -175,5 +179,6 @@ export default function Page() {
         </div>
       </section>
     </main>
+    </>
   );
 }
